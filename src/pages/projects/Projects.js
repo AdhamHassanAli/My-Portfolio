@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -17,6 +17,18 @@ function Projects(props) {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+
+  function adjustElement(el) {
+    el.style.height = getComputedStyle(el).width;
+    window.addEventListener("resize", () => {
+      el.style.height = getComputedStyle(el).width;
+    });
+  }
+
+  useEffect(() => {
+    var images = document.querySelectorAll(".repo-image-div img");
+    images.forEach((img) => adjustElement(img));
+  }, []);
 
   return (
     <div className="projects-main">
@@ -52,11 +64,7 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/harikanani"
-      >
+      <a {...styles} className="general-btn" href="https://github.com/El-bana">
         More Projects (Github)
       </a>
       <br />

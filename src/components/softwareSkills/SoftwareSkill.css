@@ -1,4 +1,6 @@
 .dev-icons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
@@ -9,7 +11,6 @@
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
   margin-bottom: 20px;
   font-family: "Google Sans Regular";
 }
@@ -20,4 +21,10 @@
 
 .software-skill-inline > i:hover {
   color: #645beb;
+}
+
+@media screen and (max-width: 992px) {
+  .dev-icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

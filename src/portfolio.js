@@ -4,7 +4,6 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
@@ -15,8 +14,6 @@ const greeting = {
   nickname: "Ibrahim El-bana",
   full_name: "Ibrahim El-bana",
   subTitle: "Front-end Developer, Open Source Enthusiast 🔥. Always learning.",
-  resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
@@ -373,57 +370,94 @@ const projects = {
   data: [
     {
       id: "0",
-      image: "contact.jpg",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
+      image: "landing-page.webp",
+      name: "Fully responsive SaaS Landing Page",
+      url: "https://landing-page-eight-hazel.vercel.app/",
       description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+        "This landing page is fully animated, fully responsive with 99% performance score, converted from PSD.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos:css-3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
         },
       ],
     },
     {
       id: "1",
-      image: "contact.jpg",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
+      image: "cars-project.webp",
+      name: "Car Dealership website",
+      url: "https://cars-project.vercel.app/",
       description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+        "A complete real life project for a car selling company made with react, converted from AdobeXD",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "ReactJS",
+          iconifyClass: "logos:react",
         },
       ],
     },
     {
       id: "2",
-      image: "contact.jpg",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
+      image: "conduit.png",
+      name: "Social Media App",
+      url: "https://conduit-nine.vercel.app/",
       description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+        "Fully functional social media website with authentecation, and great performance score.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "ReactJS",
+          iconifyClass: "logos:react",
         },
       ],
     },
     {
       id: "3",
-      image: "contact.jpg",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description:
-        "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+      image: "carbon.png",
+      name: "Carbon",
+      url: "https://carbonn.vercel.app/",
+      description: "A Fully responsive landing page converted from Figma.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "HTML5",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos:css-3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+      ],
+    },
+    {
+      id: "3",
+      image: "yeet.png",
+      name: "Yeet Rocket",
+      url: "https://yeet-eight.vercel.app/",
+      description:
+        "A Fully responsive and animated landing page converted from Figma.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "logos:html-5",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "logos:css-3",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
         },
       ],
     },
