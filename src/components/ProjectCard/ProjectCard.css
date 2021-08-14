@@ -27,6 +27,17 @@
   margin-right: 0.75rem;
 }
 
+.repo-image-div {
+  margin-bottom: 15px;
+}
+
+.repo-image-div img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 .repo-name-div {
   display: flex;
   align-items: center;
