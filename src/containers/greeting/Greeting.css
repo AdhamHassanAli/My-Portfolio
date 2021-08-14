@@ -1,12 +1,12 @@
 .main {
-  width: 90%;
+  max-width: 1280;
   padding: 0px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
 
 .greet-main {
-  max-width: 1370px;
+  max-width: 1280;
   padding: 10px 10px;
   margin: 0px auto;
   margin-top: 2rem;
@@ -78,10 +78,6 @@
 
   .greeting-text-p {
     font-size: 20px;
-  }
-
-  .greet-main {
-    max-width: 900px;
   }
 }
 @media (max-width: 768px) {
