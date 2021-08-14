@@ -45,8 +45,8 @@ function Projects(props) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
-          return <ProjectCard repo={repo} theme={theme} />;
+        {projects.data.map((repo, i) => {
+          return <ProjectCard repo={repo} theme={theme} key={i} />;
         })}
       </div>
       <br />
