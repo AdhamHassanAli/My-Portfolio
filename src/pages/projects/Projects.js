@@ -64,9 +64,7 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a {...styles} className="general-btn" href="https://github.com/El-bana">
-        More Projects (Github)
-      </a>
+
       <br />
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />

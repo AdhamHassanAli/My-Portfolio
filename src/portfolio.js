@@ -9,19 +9,19 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Ibrahim",
-  logo_name: "Ibrahim",
-  nickname: "Ibrahim El-bana",
-  full_name: "Ibrahim El-bana",
+  title2: "Adham",
+  logo_name: "Adham",
+  nickname: "Adham Hassan",
+  full_name: "Adham Hassan",
   subTitle: "Front-end Developer, Open Source Enthusiast 🔥. Always learning.",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "adhamhassanali001@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/El-bana",
   linkedin: "https://www.linkedin.com/in/ibrahim-el-bana-1957171a4/",
-  gmail: "ibrahimaelbana@gmail.com",
+  gmail: "adhamhassanali001@gmail.com",
 };
 
 const skills = {
